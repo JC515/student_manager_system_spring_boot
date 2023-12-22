@@ -1,0 +1,10 @@
+put http://localhost:8080/student/updateStudentByStudentId
+json:
+{
+  "studentId": "1001",
+  "studentName": "yjc",
+  "gender": 1,
+  "age": 21,
+  "nativePlace": "湖南",
+  "identity": 2
+}
